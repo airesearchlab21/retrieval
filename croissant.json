@@ -7,7 +7,7 @@
   "@type": "Dataset",
   "name": "MEMTRACE",
   "description": "Synthetic benchmark traces for evaluating persistent-memory safety in memory-enabled agents under fixed retrieval, deterministic tools, and validity-gated metrics.",
-  "url": "https://anonymous.4open.science/r/retrieval-eval-D977",
+  "url": "https://anonymous.4open.science/r/retrieval-53BC",
   "license": "MIT",
   "keywords": [
     "LLM agents",
