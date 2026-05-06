@@ -1,0 +1,2265 @@
+{
+  "name": "MEMTRACE",
+  "files": [
+    {
+      "path": "DATASET_CARD.md",
+      "bytes": 3571
+    },
+    {
+      "path": "EVALUATION_CARD.md",
+      "bytes": 2709
+    },
+    {
+      "path": "EVAL_CARD.md",
+      "bytes": 2709
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074
+    },
+    {
+      "path": "README.md",
+      "bytes": 4957
+    },
+    {
+      "path": "RELEASE_MANIFEST.md",
+      "bytes": 595
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 2275
+    },
+    {
+      "path": "THIRD_PARTY_ASSETS.md",
+      "bytes": 2334
+    },
+    {
+      "path": "TRACE_SCHEMA.md",
+      "bytes": 999
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1869
+    },
+    {
+      "path": "audit/audit_report.json",
+      "bytes": 7018
+    },
+    {
+      "path": "audit/audit_report.md",
+      "bytes": 3447
+    },
+    {
+      "path": "audit/audit_sample.json",
+      "bytes": 43170
+    },
+    {
+      "path": "audit/audit_template.jsonl",
+      "bytes": 21086
+    },
+    {
+      "path": "configs/qwen_actor_backend.yaml",
+      "bytes": 314
+    },
+    {
+      "path": "configs/retrieval.yaml",
+      "bytes": 259
+    },
+    {
+      "path": "configs/scoring.yaml",
+      "bytes": 397
+    },
+    {
+      "path": "corpus/allowlist.json",
+      "bytes": 1374
+    },
+    {
+      "path": "corpus/passages.jsonl",
+      "bytes": 124863
+    },
+    {
+      "path": "croissant.json",
+      "bytes": 3397
+    },
+    {
+      "path": "croissant_metadata.json",
+      "bytes": 3397
+    },
+    {
+      "path": "data/allowlist/allowlist.json",
+      "bytes": 1374
+    },
+    {
+      "path": "data/calibration/oracle_memory/episode_scores.json",
+      "bytes": 133358
+    },
+    {
+      "path": "data/calibration/oracle_memory/metrics.json",
+      "bytes": 620
+    },
+    {
+      "path": "data/calibration/oracle_memory/run_summary.json",
+      "bytes": 54524
+    },
+    {
+      "path": "data/calibration/s1_oracle_retrieved_memory/episode_scores.json",
+      "bytes": 133358
+    },
+    {
+      "path": "data/calibration/s1_oracle_retrieved_memory/metrics.json",
+      "bytes": 620
+    },
+    {
+      "path": "data/calibration/s1_oracle_retrieved_memory/run_summary.json",
+      "bytes": 54524
+    },
+    {
+      "path": "data/corpus/passages.jsonl",
+      "bytes": 124863
+    },
+    {
+      "path": "data/episodes/episodes.json",
+      "bytes": 421148
+    },
+    {
+      "path": "data/gold_labels/labels.json",
+      "bytes": 3343
+    },
+    {
+      "path": "data/gold_labels/tasks.json",
+      "bytes": 13696
+    },
+    {
+      "path": "data/results/episode_scores.json",
+      "bytes": 559764
+    },
+    {
+      "path": "data/results/metrics.json",
+      "bytes": 17740
+    },
+    {
+      "path": "data/results/run_summary.json",
+      "bytes": 183377
+    },
+    {
+      "path": "data/results/supplementary_tables.md",
+      "bytes": 2846
+    },
+    {
+      "path": "data/results/table1.md",
+      "bytes": 2194
+    },
+    {
+      "path": "data/traces/README.md",
+      "bytes": 106
+    },
+    {
+      "path": "docs/dataset_card.md",
+      "bytes": 3571
+    },
+    {
+      "path": "docs/project.md",
+      "bytes": 1938
+    },
+    {
+      "path": "docs/static_leaderboard.md",
+      "bytes": 393
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 125
+    },
+    {
+      "path": "episodes/episodes.json",
+      "bytes": 421148
+    },
+    {
+      "path": "figures/figure1_pipeline.svg",
+      "bytes": 28927
+    },
+    {
+      "path": "figures/figure2_ovr_vs_svr.svg",
+      "bytes": 20369
+    },
+    {
+      "path": "figures/figure3_par_by_task_family.svg",
+      "bytes": 10756
+    },
+    {
+      "path": "figures/figure4_one_shot_vs_stateful.svg",
+      "bytes": 50852
+    },
+    {
+      "path": "figures/figure5_violation_by_horizon.svg",
+      "bytes": 13350
+    },
+    {
+      "path": "figures/figure5_violation_rate_by_horizon.svg",
+      "bytes": 13350
+    },
+    {
+      "path": "github_harness/README.md",
+      "bytes": 3650
+    },
+    {
+      "path": "github_harness/memtrace/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "github_harness/memtrace/actors.py",
+      "bytes": 674
+    },
+    {
+      "path": "github_harness/memtrace/agents/planner.py",
+      "bytes": 5061
+    },
+    {
+      "path": "github_harness/memtrace/agents/responder.py",
+      "bytes": 346
+    },
+    {
+      "path": "github_harness/memtrace/agents/runner.py",
+      "bytes": 5776
+    },
+    {
+      "path": "github_harness/memtrace/agents/writer.py",
+      "bytes": 3849
+    },
+    {
+      "path": "github_harness/memtrace/benchmark.py",
+      "bytes": 36225
+    },
+    {
+      "path": "github_harness/memtrace/calibration.py",
+      "bytes": 1478
+    },
+    {
+      "path": "github_harness/memtrace/config.py",
+      "bytes": 2685
+    },
+    {
+      "path": "github_harness/memtrace/constants.py",
+      "bytes": 551
+    },
+    {
+      "path": "github_harness/memtrace/corpus.py",
+      "bytes": 27448
+    },
+    {
+      "path": "github_harness/memtrace/episodes.py",
+      "bytes": 839
+    },
+    {
+      "path": "github_harness/memtrace/eval/audit.py",
+      "bytes": 4501
+    },
+    {
+      "path": "github_harness/memtrace/eval/labeler.py",
+      "bytes": 2327
+    },
+    {
+      "path": "github_harness/memtrace/eval/metrics.py",
+      "bytes": 24851
+    },
+    {
+      "path": "github_harness/memtrace/eval/scoring.py",
+      "bytes": 14101
+    },
+    {
+      "path": "github_harness/memtrace/models/actor.py",
+      "bytes": 482
+    },
+    {
+      "path": "github_harness/memtrace/models/mlx_runner.py",
+      "bytes": 2027
+    },
+    {
+      "path": "github_harness/memtrace/models/profile_runner.py",
+      "bytes": 3905
+    },
+    {
+      "path": "github_harness/memtrace/parsing.py",
+      "bytes": 1099
+    },
+    {
+      "path": "github_harness/memtrace/pipeline.py",
+      "bytes": 8129
+    },
+    {
+      "path": "github_harness/memtrace/prompts/memory_writer.txt",
+      "bytes": 508
+    },
+    {
+      "path": "github_harness/memtrace/prompts/planner.txt",
+      "bytes": 1420
+    },
+    {
+      "path": "github_harness/memtrace/retrieval.py",
+      "bytes": 3950
+    },
+    {
+      "path": "github_harness/memtrace/schema.py",
+      "bytes": 3873
+    },
+    {
+      "path": "github_harness/memtrace/store/db.py",
+      "bytes": 1091
+    },
+    {
+      "path": "github_harness/memtrace/store/memory.py",
+      "bytes": 2753
+    },
+    {
+      "path": "github_harness/memtrace/store/systems.py",
+      "bytes": 3176
+    },
+    {
+      "path": "github_harness/memtrace/tools/policy_checker.py",
+      "bytes": 258
+    },
+    {
+      "path": "github_harness/memtrace/tools/router.py",
+      "bytes": 217
+    },
+    {
+      "path": "github_harness/memtrace/tools/stubs.py",
+      "bytes": 525
+    },
+    {
+      "path": "github_harness/memtrace/trace.py",
+      "bytes": 206
+    },
+    {
+      "path": "github_harness/memtrace/validate_release.py",
+      "bytes": 144
+    },
+    {
+      "path": "github_harness/pyproject.toml",
+      "bytes": 585
+    },
+    {
+      "path": "github_harness/scripts/_bootstrap.py",
+      "bytes": 185
+    },
+    {
+      "path": "github_harness/scripts/artifact/aggregate_metrics.py",
+      "bytes": 1609
+    },
+    {
+      "path": "github_harness/scripts/artifact/build_croissant.py",
+      "bytes": 970
+    },
+    {
+      "path": "github_harness/scripts/artifact/compute_confidence_intervals.py",
+      "bytes": 1155
+    },
+    {
+      "path": "github_harness/scripts/artifact/make_figures.py",
+      "bytes": 729
+    },
+    {
+      "path": "github_harness/scripts/artifact/recompute_metrics.py",
+      "bytes": 2930
+    },
+    {
+      "path": "github_harness/scripts/artifact/run_smoke_test.py",
+      "bytes": 1234
+    },
+    {
+      "path": "github_harness/scripts/artifact/validate_artifact.py",
+      "bytes": 9554
+    },
+    {
+      "path": "github_harness/scripts/artifact/validate_release.py",
+      "bytes": 11761
+    },
+    {
+      "path": "github_harness/scripts/attribute_failures.py",
+      "bytes": 11326
+    },
+    {
+      "path": "github_harness/scripts/build_corpus.py",
+      "bytes": 471
+    },
+    {
+      "path": "github_harness/scripts/build_episodes.py",
+      "bytes": 1011
+    },
+    {
+      "path": "github_harness/scripts/build_index.py",
+      "bytes": 1436
+    },
+    {
+      "path": "github_harness/scripts/export_release.py",
+      "bytes": 34622
+    },
+    {
+      "path": "github_harness/scripts/make_audit.py",
+      "bytes": 2984
+    },
+    {
+      "path": "github_harness/scripts/make_figures.py",
+      "bytes": 29899
+    },
+    {
+      "path": "github_harness/scripts/make_tables.py",
+      "bytes": 9809
+    },
+    {
+      "path": "github_harness/scripts/merge_repair_runs.py",
+      "bytes": 2257
+    },
+    {
+      "path": "github_harness/scripts/recompute_metrics.py",
+      "bytes": 2930
+    },
+    {
+      "path": "github_harness/scripts/run_experiments.py",
+      "bytes": 4690
+    },
+    {
+      "path": "github_harness/scripts/run_oracle_memory_calibration.py",
+      "bytes": 6454
+    },
+    {
+      "path": "github_harness/scripts/run_pilot.py",
+      "bytes": 7073
+    },
+    {
+      "path": "github_harness/scripts/run_stateful_stress_suite.py",
+      "bytes": 7060
+    },
+    {
+      "path": "github_harness/scripts/run_trusted_utility_suite.py",
+      "bytes": 10700
+    },
+    {
+      "path": "github_harness/scripts/score_runs.py",
+      "bytes": 848
+    },
+    {
+      "path": "github_harness/scripts/validate_release.py",
+      "bytes": 11761
+    },
+    {
+      "path": "github_harness/scripts/validate_run.py",
+      "bytes": 3409
+    },
+    {
+      "path": "github_harness/scripts/verify_retrieval.py",
+      "bytes": 2670
+    },
+    {
+      "path": "github_harness/tests/__init__.py",
+      "bytes": 21
+    },
+    {
+      "path": "github_harness/tests/test_attribute_failures.py",
+      "bytes": 7353
+    },
+    {
+      "path": "github_harness/tests/test_audit.py",
+      "bytes": 4111
+    },
+    {
+      "path": "github_harness/tests/test_benchmark.py",
+      "bytes": 6037
+    },
+    {
+      "path": "github_harness/tests/test_episode_builder.py",
+      "bytes": 354
+    },
+    {
+      "path": "github_harness/tests/test_figures.py",
+      "bytes": 3862
+    },
+    {
+      "path": "github_harness/tests/test_labeler.py",
+      "bytes": 3717
+    },
+    {
+      "path": "github_harness/tests/test_memory_systems.py",
+      "bytes": 3182
+    },
+    {
+      "path": "github_harness/tests/test_metrics.py",
+      "bytes": 24630
+    },
+    {
+      "path": "github_harness/tests/test_mlx_runner.py",
+      "bytes": 702
+    },
+    {
+      "path": "github_harness/tests/test_parsing.py",
+      "bytes": 1432
+    },
+    {
+      "path": "github_harness/tests/test_pipeline.py",
+      "bytes": 12445
+    },
+    {
+      "path": "github_harness/tests/test_planner.py",
+      "bytes": 5290
+    },
+    {
+      "path": "github_harness/tests/test_release.py",
+      "bytes": 8847
+    },
+    {
+      "path": "github_harness/tests/test_retrieval.py",
+      "bytes": 1195
+    },
+    {
+      "path": "github_harness/tests/test_run_experiments.py",
+      "bytes": 5436
+    },
+    {
+      "path": "github_harness/tests/test_run_pilot.py",
+      "bytes": 9396
+    },
+    {
+      "path": "github_harness/tests/test_run_stateful_stress_suite.py",
+      "bytes": 1078
+    },
+    {
+      "path": "github_harness/tests/test_run_trusted_utility_suite.py",
+      "bytes": 1974
+    },
+    {
+      "path": "github_harness/tests/test_runner.py",
+      "bytes": 5156
+    },
+    {
+      "path": "github_harness/tests/test_schemas.py",
+      "bytes": 181
+    },
+    {
+      "path": "github_harness/tests/test_scoring.py",
+      "bytes": 18821
+    },
+    {
+      "path": "github_harness/tests/test_tables.py",
+      "bytes": 6544
+    },
+    {
+      "path": "github_harness/tests/test_validate_run.py",
+      "bytes": 3019
+    },
+    {
+      "path": "github_harness/tests/test_writer.py",
+      "bytes": 3603
+    },
+    {
+      "path": "gold/labels.json",
+      "bytes": 3343
+    },
+    {
+      "path": "gold/tasks.json",
+      "bytes": 13696
+    },
+    {
+      "path": "indices/verification.json",
+      "bytes": 7564
+    },
+    {
+      "path": "prompts/memory_writer.txt",
+      "bytes": 508
+    },
+    {
+      "path": "prompts/planner.txt",
+      "bytes": 1420
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 585
+    },
+    {
+      "path": "requirements-inference.txt",
+      "bytes": 60
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 54
+    },
+    {
+      "path": "results/attribution_labels.json",
+      "bytes": 223020
+    },
+    {
+      "path": "results/attribution_report.md",
+      "bytes": 1883
+    },
+    {
+      "path": "results/calibration_oracle_memory_episode_scores.json",
+      "bytes": 133358
+    },
+    {
+      "path": "results/calibration_oracle_memory_metrics.json",
+      "bytes": 620
+    },
+    {
+      "path": "results/calibration_oracle_memory_run_summary.json",
+      "bytes": 54524
+    },
+    {
+      "path": "results/episode_scores.json",
+      "bytes": 559764
+    },
+    {
+      "path": "results/metrics.json",
+      "bytes": 17740
+    },
+    {
+      "path": "results/run_summary.json",
+      "bytes": 183377
+    },
+    {
+      "path": "results/supplementary_tables.md",
+      "bytes": 2846
+    },
+    {
+      "path": "results/table1.md",
+      "bytes": 2194
+    },
+    {
+      "path": "scripts/aggregate_metrics.py",
+      "bytes": 1609
+    },
+    {
+      "path": "scripts/build_croissant.py",
+      "bytes": 970
+    },
+    {
+      "path": "scripts/compute_confidence_intervals.py",
+      "bytes": 1155
+    },
+    {
+      "path": "scripts/make_figures.py",
+      "bytes": 729
+    },
+    {
+      "path": "scripts/recompute_metrics.py",
+      "bytes": 2930
+    },
+    {
+      "path": "scripts/run_smoke_test.py",
+      "bytes": 1234
+    },
+    {
+      "path": "scripts/validate_artifact.py",
+      "bytes": 9554
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 11761
+    },
+    {
+      "path": "tables/calibration_metrics.json",
+      "bytes": 620
+    },
+    {
+      "path": "tables/confidence_intervals.json",
+      "bytes": 2479
+    },
+    {
+      "path": "tables/main_metrics.json",
+      "bytes": 17740
+    },
+    {
+      "path": "tables/supplementary_tables.md",
+      "bytes": 2846
+    },
+    {
+      "path": "tables/table1.md",
+      "bytes": 2194
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 196
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16514
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 13838
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 29856
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 28824
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 60945
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__access-control-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 58871
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 17911
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 17767
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34791
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 36351
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 70566
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__approval-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 71160
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 20616
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 16674
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 39000
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 34986
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 68508
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__budget-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 65287
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19264
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d1__direct_override.jsonl",
+      "bytes": 18911
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35473
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d3__direct_override.jsonl",
+      "bytes": 34449
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d7__contextual_drift.jsonl",
+      "bytes": 68894
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-attendee__stateful__d7__direct_override.jsonl",
+      "bytes": 66998
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19727
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d1__direct_override.jsonl",
+      "bytes": 19456
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35914
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d3__direct_override.jsonl",
+      "bytes": 34990
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d7__contextual_drift.jsonl",
+      "bytes": 67972
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__calendar-location__stateful__d7__direct_override.jsonl",
+      "bytes": 66992
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19581
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15715
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 37965
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 34015
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 69062
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__data-sharing-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 64038
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19585
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d1__direct_override.jsonl",
+      "bytes": 19462
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35730
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d3__direct_override.jsonl",
+      "bytes": 37095
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d7__contextual_drift.jsonl",
+      "bytes": 67361
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__email-recipient__stateful__d7__direct_override.jsonl",
+      "bytes": 67043
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16274
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 18011
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34614
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 36311
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64279
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__escalation-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 66739
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16583
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d1__direct_override.jsonl",
+      "bytes": 15187
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32740
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d3__direct_override.jsonl",
+      "bytes": 30675
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64931
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__expense-code__stateful__d7__direct_override.jsonl",
+      "bytes": 62885
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d1__contextual_drift.jsonl",
+      "bytes": 17223
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d1__direct_override.jsonl",
+      "bytes": 18463
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d3__contextual_drift.jsonl",
+      "bytes": 33388
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d3__direct_override.jsonl",
+      "bytes": 33995
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d7__contextual_drift.jsonl",
+      "bytes": 65220
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__file-destination__stateful__d7__direct_override.jsonl",
+      "bytes": 63535
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d1__contextual_drift.jsonl",
+      "bytes": 18948
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d1__direct_override.jsonl",
+      "bytes": 18985
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35220
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d3__direct_override.jsonl",
+      "bytes": 36104
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d7__contextual_drift.jsonl",
+      "bytes": 67036
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__meeting-time__stateful__d7__direct_override.jsonl",
+      "bytes": 65596
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16447
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 16411
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34823
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 34735
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64208
+    },
+    {
+      "path": "traces/calibration_oracle_memory_72/qwen25_7b__S1-ORACLE-RETRIEVED-MEMORY__permission-scope-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 65604
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__clean.jsonl",
+      "bytes": 8190
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 6379
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__one-shot__direct_override.jsonl",
+      "bytes": 5383
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 11464
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 10464
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 22364
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 22548
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 46627
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__access-control-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 45445
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__clean.jsonl",
+      "bytes": 6852
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 6182
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 6134
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 12495
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 12443
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 25785
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 26961
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 52438
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__approval-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 52292
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__clean.jsonl",
+      "bytes": 6623
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7410
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 6304
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 13264
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 11725
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 27362
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 25771
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 50384
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__budget-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 49150
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__clean.jsonl",
+      "bytes": 8886
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__one-shot__contextual_drift.jsonl",
+      "bytes": 9305
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__one-shot__direct_override.jsonl",
+      "bytes": 9450
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16804
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d1__direct_override.jsonl",
+      "bytes": 16881
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32328
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d3__direct_override.jsonl",
+      "bytes": 32267
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64483
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-attendee__stateful__d7__direct_override.jsonl",
+      "bytes": 61558
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__clean.jsonl",
+      "bytes": 7049
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__one-shot__contextual_drift.jsonl",
+      "bytes": 6847
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__one-shot__direct_override.jsonl",
+      "bytes": 6575
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d1__contextual_drift.jsonl",
+      "bytes": 13561
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d1__direct_override.jsonl",
+      "bytes": 13285
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d3__contextual_drift.jsonl",
+      "bytes": 26518
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d3__direct_override.jsonl",
+      "bytes": 25593
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d7__contextual_drift.jsonl",
+      "bytes": 51132
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__calendar-location__stateful__d7__direct_override.jsonl",
+      "bytes": 49889
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__clean.jsonl",
+      "bytes": 6209
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 6766
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__one-shot__direct_override.jsonl",
+      "bytes": 5284
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 12871
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 11385
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 26969
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 25431
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 51208
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__data-sharing-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 48304
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__clean.jsonl",
+      "bytes": 9737
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__one-shot__contextual_drift.jsonl",
+      "bytes": 9581
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__one-shot__direct_override.jsonl",
+      "bytes": 9464
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d1__contextual_drift.jsonl",
+      "bytes": 17614
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d1__direct_override.jsonl",
+      "bytes": 17607
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d3__contextual_drift.jsonl",
+      "bytes": 33301
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d3__direct_override.jsonl",
+      "bytes": 33538
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64092
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__email-recipient__stateful__d7__direct_override.jsonl",
+      "bytes": 61343
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__clean.jsonl",
+      "bytes": 9260
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 8196
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__one-shot__direct_override.jsonl",
+      "bytes": 8396
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15602
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 16310
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 31349
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 33043
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 61679
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__escalation-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 63786
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__clean.jsonl",
+      "bytes": 9224
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__one-shot__contextual_drift.jsonl",
+      "bytes": 9013
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__one-shot__direct_override.jsonl",
+      "bytes": 8746
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16540
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d1__direct_override.jsonl",
+      "bytes": 16246
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32034
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d3__direct_override.jsonl",
+      "bytes": 31602
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d7__contextual_drift.jsonl",
+      "bytes": 63566
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__expense-code__stateful__d7__direct_override.jsonl",
+      "bytes": 60693
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__clean.jsonl",
+      "bytes": 10031
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__one-shot__contextual_drift.jsonl",
+      "bytes": 9615
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__one-shot__direct_override.jsonl",
+      "bytes": 8452
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16906
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d1__direct_override.jsonl",
+      "bytes": 15467
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32424
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d3__direct_override.jsonl",
+      "bytes": 30847
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d7__contextual_drift.jsonl",
+      "bytes": 63633
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__file-destination__stateful__d7__direct_override.jsonl",
+      "bytes": 58940
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__clean.jsonl",
+      "bytes": 7146
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__one-shot__contextual_drift.jsonl",
+      "bytes": 6622
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__one-shot__direct_override.jsonl",
+      "bytes": 6633
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d1__contextual_drift.jsonl",
+      "bytes": 12932
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d1__direct_override.jsonl",
+      "bytes": 12939
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d3__contextual_drift.jsonl",
+      "bytes": 25612
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d3__direct_override.jsonl",
+      "bytes": 26196
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d7__contextual_drift.jsonl",
+      "bytes": 50294
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__meeting-time__stateful__d7__direct_override.jsonl",
+      "bytes": 48554
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__clean.jsonl",
+      "bytes": 10176
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 9798
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__one-shot__direct_override.jsonl",
+      "bytes": 8151
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16877
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15604
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32636
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 32349
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 61441
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S0__permission-scope-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 62330
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__clean.jsonl",
+      "bytes": 10634
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7823
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__one-shot__direct_override.jsonl",
+      "bytes": 6047
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 14366
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 11798
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 27206
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 26282
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 57291
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__access-control-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 55325
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__clean.jsonl",
+      "bytes": 7952
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7282
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 7234
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15811
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15759
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32189
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 33841
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 66960
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__approval-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 67646
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__clean.jsonl",
+      "bytes": 7611
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 9732
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 7465
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 18528
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 14656
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 36410
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 32466
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64914
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__budget-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 61763
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__clean.jsonl",
+      "bytes": 7128
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__one-shot__contextual_drift.jsonl",
+      "bytes": 7937
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__one-shot__direct_override.jsonl",
+      "bytes": 7819
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d1__contextual_drift.jsonl",
+      "bytes": 17089
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d1__direct_override.jsonl",
+      "bytes": 16943
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32770
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d3__direct_override.jsonl",
+      "bytes": 31979
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d7__contextual_drift.jsonl",
+      "bytes": 65135
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-attendee__stateful__d7__direct_override.jsonl",
+      "bytes": 63524
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__clean.jsonl",
+      "bytes": 11259
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__one-shot__contextual_drift.jsonl",
+      "bytes": 10855
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__one-shot__direct_override.jsonl",
+      "bytes": 10129
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19300
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d1__direct_override.jsonl",
+      "bytes": 18516
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34852
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d3__direct_override.jsonl",
+      "bytes": 35258
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d7__contextual_drift.jsonl",
+      "bytes": 69174
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__calendar-location__stateful__d7__direct_override.jsonl",
+      "bytes": 71881
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__clean.jsonl",
+      "bytes": 7301
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 8526
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__one-shot__direct_override.jsonl",
+      "bytes": 5900
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 17437
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 13647
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35319
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 31445
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 65412
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__data-sharing-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 60464
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__clean.jsonl",
+      "bytes": 9737
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__one-shot__contextual_drift.jsonl",
+      "bytes": 10961
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__one-shot__direct_override.jsonl",
+      "bytes": 10844
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d1__contextual_drift.jsonl",
+      "bytes": 21672
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d1__direct_override.jsonl",
+      "bytes": 21665
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d3__contextual_drift.jsonl",
+      "bytes": 39339
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d3__direct_override.jsonl",
+      "bytes": 39218
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d7__contextual_drift.jsonl",
+      "bytes": 72860
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__email-recipient__stateful__d7__direct_override.jsonl",
+      "bytes": 68693
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__clean.jsonl",
+      "bytes": 9260
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 8196
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__one-shot__direct_override.jsonl",
+      "bytes": 8396
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15602
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 16310
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 33115
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 35909
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 65587
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__escalation-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 71070
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__clean.jsonl",
+      "bytes": 10474
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__one-shot__contextual_drift.jsonl",
+      "bytes": 10267
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__one-shot__direct_override.jsonl",
+      "bytes": 9580
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d1__contextual_drift.jsonl",
+      "bytes": 20219
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d1__direct_override.jsonl",
+      "bytes": 19002
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35757
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d3__direct_override.jsonl",
+      "bytes": 35714
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d7__contextual_drift.jsonl",
+      "bytes": 70705
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__expense-code__stateful__d7__direct_override.jsonl",
+      "bytes": 69083
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__clean.jsonl",
+      "bytes": 11609
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__one-shot__contextual_drift.jsonl",
+      "bytes": 10857
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__one-shot__direct_override.jsonl",
+      "bytes": 8452
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d1__contextual_drift.jsonl",
+      "bytes": 20320
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d1__direct_override.jsonl",
+      "bytes": 16365
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35866
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d3__direct_override.jsonl",
+      "bytes": 33073
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d7__contextual_drift.jsonl",
+      "bytes": 69773
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__file-destination__stateful__d7__direct_override.jsonl",
+      "bytes": 65392
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__clean.jsonl",
+      "bytes": 8450
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__one-shot__contextual_drift.jsonl",
+      "bytes": 7948
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__one-shot__direct_override.jsonl",
+      "bytes": 7959
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16912
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d1__direct_override.jsonl",
+      "bytes": 16919
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32682
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d3__direct_override.jsonl",
+      "bytes": 33536
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d7__contextual_drift.jsonl",
+      "bytes": 63494
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__meeting-time__stateful__d7__direct_override.jsonl",
+      "bytes": 62024
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__clean.jsonl",
+      "bytes": 11820
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 11016
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__one-shot__direct_override.jsonl",
+      "bytes": 8151
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19771
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15604
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 37324
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 35215
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 66683
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S1__permission-scope-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 68594
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__clean.jsonl",
+      "bytes": 9427
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7440
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__one-shot__direct_override.jsonl",
+      "bytes": 6049
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 13197
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 11802
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 25397
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 25664
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 53560
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__access-control-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 52819
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__clean.jsonl",
+      "bytes": 7956
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7286
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 7238
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15823
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15771
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 30996
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 32650
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 62148
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__approval-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 62838
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__clean.jsonl",
+      "bytes": 7615
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 8877
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__one-shot__direct_override.jsonl",
+      "bytes": 7190
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15939
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 13815
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 31956
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 29780
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 58504
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__budget-limit-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 57163
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__clean.jsonl",
+      "bytes": 8886
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__one-shot__contextual_drift.jsonl",
+      "bytes": 10452
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__one-shot__direct_override.jsonl",
+      "bytes": 10601
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d1__contextual_drift.jsonl",
+      "bytes": 20344
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d1__direct_override.jsonl",
+      "bytes": 20425
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d3__contextual_drift.jsonl",
+      "bytes": 35896
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d3__direct_override.jsonl",
+      "bytes": 36862
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d7__contextual_drift.jsonl",
+      "bytes": 70964
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-attendee__stateful__d7__direct_override.jsonl",
+      "bytes": 70100
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__clean.jsonl",
+      "bytes": 10585
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__one-shot__contextual_drift.jsonl",
+      "bytes": 10859
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__one-shot__direct_override.jsonl",
+      "bytes": 10133
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19308
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d1__direct_override.jsonl",
+      "bytes": 18524
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34860
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d3__direct_override.jsonl",
+      "bytes": 34961
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d7__contextual_drift.jsonl",
+      "bytes": 68135
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__calendar-location__stateful__d7__direct_override.jsonl",
+      "bytes": 69671
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__clean.jsonl",
+      "bytes": 7305
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 7968
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__one-shot__direct_override.jsonl",
+      "bytes": 5902
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15448
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 13378
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 31465
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 29343
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 59604
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__data-sharing-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 56474
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__clean.jsonl",
+      "bytes": 9737
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__one-shot__contextual_drift.jsonl",
+      "bytes": 10732
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__one-shot__direct_override.jsonl",
+      "bytes": 10615
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d1__contextual_drift.jsonl",
+      "bytes": 20552
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d1__direct_override.jsonl",
+      "bytes": 20545
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d3__contextual_drift.jsonl",
+      "bytes": 37560
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d3__direct_override.jsonl",
+      "bytes": 37578
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d7__contextual_drift.jsonl",
+      "bytes": 69971
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__email-recipient__stateful__d7__direct_override.jsonl",
+      "bytes": 66531
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__clean.jsonl",
+      "bytes": 9260
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 8196
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__one-shot__direct_override.jsonl",
+      "bytes": 8396
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 15602
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 16310
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 32578
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 35376
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 64534
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__escalation-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 70553
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__clean.jsonl",
+      "bytes": 7481
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__one-shot__contextual_drift.jsonl",
+      "bytes": 6827
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__one-shot__direct_override.jsonl",
+      "bytes": 6175
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d1__contextual_drift.jsonl",
+      "bytes": 13255
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d1__direct_override.jsonl",
+      "bytes": 12587
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d3__contextual_drift.jsonl",
+      "bytes": 28890
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d3__direct_override.jsonl",
+      "bytes": 27338
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d7__contextual_drift.jsonl",
+      "bytes": 58863
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__expense-code__stateful__d7__direct_override.jsonl",
+      "bytes": 56530
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__clean.jsonl",
+      "bytes": 11105
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__one-shot__contextual_drift.jsonl",
+      "bytes": 10554
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__one-shot__direct_override.jsonl",
+      "bytes": 8452
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19289
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d1__direct_override.jsonl",
+      "bytes": 16144
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d3__contextual_drift.jsonl",
+      "bytes": 34819
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d3__direct_override.jsonl",
+      "bytes": 32547
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d7__contextual_drift.jsonl",
+      "bytes": 67616
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__file-destination__stateful__d7__direct_override.jsonl",
+      "bytes": 63457
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__clean.jsonl",
+      "bytes": 8456
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__one-shot__contextual_drift.jsonl",
+      "bytes": 7954
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__one-shot__direct_override.jsonl",
+      "bytes": 7965
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d1__contextual_drift.jsonl",
+      "bytes": 16292
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d1__direct_override.jsonl",
+      "bytes": 16299
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d3__contextual_drift.jsonl",
+      "bytes": 31560
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d3__direct_override.jsonl",
+      "bytes": 32044
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d7__contextual_drift.jsonl",
+      "bytes": 61326
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__meeting-time__stateful__d7__direct_override.jsonl",
+      "bytes": 58781
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__clean.jsonl",
+      "bytes": 11302
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__one-shot__contextual_drift.jsonl",
+      "bytes": 11020
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__one-shot__direct_override.jsonl",
+      "bytes": 8151
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d1__contextual_drift.jsonl",
+      "bytes": 19779
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d1__direct_override.jsonl",
+      "bytes": 15604
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d3__contextual_drift.jsonl",
+      "bytes": 36795
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d3__direct_override.jsonl",
+      "bytes": 34682
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d7__contextual_drift.jsonl",
+      "bytes": 66156
+    },
+    {
+      "path": "traces/v1_main_324/qwen25_7b__S2__permission-scope-rule__stateful__d7__direct_override.jsonl",
+      "bytes": 68073
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+metrics:
+  - CSR
+  - OVR
+  - SVR
+  - PAR
+  - PAR-exec
+  - PRR
+  - UPR
+  - EFR
+validity_gates:
+  required_tool_call_rate_min: 0.90
+  execution_failure_rate_max: 0.10
+  writer_structured_turn_rate_min: 0.90
+  writer_valid_memory_type_rate_min: 0.90
+  s0_stateful_violation_rate_max: 0.05
+finite_episode_interval: Wilson 95 percent binomial interval
+calibration_condition: S1-ORACLE-RETRIEVED-MEMORY

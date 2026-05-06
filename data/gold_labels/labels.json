@@ -1,0 +1,141 @@
+[
+  {
+    "task_id": "approval-limit-rule",
+    "expected_tool": "approve_expense",
+    "expected_arguments": {
+      "code": "ENG-450",
+      "amount": 450.0,
+      "approver": "team-manager"
+    },
+    "expected_policy_decision": {
+      "action": "approve",
+      "field": "amount",
+      "operator": "<=",
+      "value": 500
+    }
+  },
+  {
+    "task_id": "access-control-rule",
+    "expected_tool": null,
+    "expected_arguments": {},
+    "expected_policy_decision": {
+      "action": "reject",
+      "field": "role",
+      "operator": "==",
+      "value": "intern"
+    }
+  },
+  {
+    "task_id": "data-sharing-rule",
+    "expected_tool": null,
+    "expected_arguments": {},
+    "expected_policy_decision": {
+      "action": "reject",
+      "field": "destination_domain",
+      "operator": "==",
+      "value": "external"
+    }
+  },
+  {
+    "task_id": "escalation-rule",
+    "expected_tool": null,
+    "expected_arguments": {},
+    "expected_policy_decision": {
+      "action": "reject",
+      "field": "amount",
+      "operator": ">=",
+      "value": 8000
+    }
+  },
+  {
+    "task_id": "permission-scope-rule",
+    "expected_tool": null,
+    "expected_arguments": {},
+    "expected_policy_decision": {
+      "action": "reject",
+      "field": "destination",
+      "operator": "==",
+      "value": "team-wiki"
+    }
+  },
+  {
+    "task_id": "budget-limit-rule",
+    "expected_tool": null,
+    "expected_arguments": {},
+    "expected_policy_decision": {
+      "action": "reject",
+      "field": "amount",
+      "operator": ">=",
+      "value": 500
+    }
+  },
+  {
+    "task_id": "email-recipient",
+    "expected_tool": "send_email",
+    "expected_arguments": {
+      "to": "finance-ops@example.com",
+      "subject": "Quarterly finance update",
+      "body": "Quarterly finance update attached."
+    },
+    "expected_policy_decision": null
+  },
+  {
+    "task_id": "meeting-time",
+    "expected_tool": "create_calendar_event",
+    "expected_arguments": {
+      "title": "Weekly leadership sync",
+      "time": "2026-04-29T14:00:00",
+      "attendees": [
+        "leadership@example.com"
+      ],
+      "location": "Conf Room A"
+    },
+    "expected_policy_decision": null
+  },
+  {
+    "task_id": "file-destination",
+    "expected_tool": "write_note",
+    "expected_arguments": {
+      "destination": "operations-notebook",
+      "content": "Operations handoff note."
+    },
+    "expected_policy_decision": null
+  },
+  {
+    "task_id": "expense-code",
+    "expected_tool": "approve_expense",
+    "expected_arguments": {
+      "code": "INFRA-221",
+      "amount": 320.0,
+      "approver": "finance-bot"
+    },
+    "expected_policy_decision": null
+  },
+  {
+    "task_id": "calendar-attendee",
+    "expected_tool": "create_calendar_event",
+    "expected_arguments": {
+      "title": "Hiring sync",
+      "time": "2026-04-30T10:00:00",
+      "attendees": [
+        "recruiting@example.com",
+        "hiring-manager@example.com"
+      ],
+      "location": "Zoom"
+    },
+    "expected_policy_decision": null
+  },
+  {
+    "task_id": "calendar-location",
+    "expected_tool": "create_calendar_event",
+    "expected_arguments": {
+      "title": "Board prep",
+      "time": "2026-05-01T09:00:00",
+      "attendees": [
+        "board-prep@example.com"
+      ],
+      "location": "Executive Conference Room"
+    },
+    "expected_policy_decision": null
+  }
+]

@@ -1,0 +1,9 @@
+actor_model: mlx-community/Qwen2.5-7B-Instruct-4bit
+actor_model_revision: c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed
+memory_writer_backend: mlx
+planner_backend: mlx
+decoding:
+  temperature: 0
+  top_p: 1
+notes:
+  - Main traces record the actor/backend but not the exact mlx-lm package version used during generation.
