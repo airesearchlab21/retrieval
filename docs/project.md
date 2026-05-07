@@ -21,6 +21,7 @@ The artifact includes:
 
 - synthetic corpus, allowlist, episode specifications, and gold labels;
 - prompts, deterministic tools, traces, run summaries, metrics, and attribution reports;
+- optional trusted-memory utility and localized stateful-stress extension outputs;
 - validation scripts that regenerate metrics from packaged traces without model inference;
 - Croissant metadata and documentation cards for dataset, evaluation, third-party assets, and release scope.
 
@@ -31,3 +32,4 @@ The `profile` backend is a smoke-test fixture and is not a reported result backe
 
 The artifact supports a validity-first benchmark claim for one actor/backend pair.
 It does not make broad cross-model claims, does not claim that persistent memory is safe, and treats `S2` as a provenance-aware reference writer rather than a complete deployed defense.
+The optional stress packet should be read as a recommended diagnostic companion for future pilots, not as additional main-protocol delayed-compromise evidence.

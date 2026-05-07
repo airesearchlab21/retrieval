@@ -4,7 +4,7 @@
 
 MEMTRACE is a validity-first benchmark and protocol for separating immediate retrieval-context violations, poisoned-memory admission, trigger-time memory retrieval, unsafe proposal, policy-checker blocking, unsafe execution, and execution-format failure in memory-enabled tool agents.
 This anonymous artifact supports the MEMTRACE NeurIPS Evaluations & Datasets submission.
-It contains the audited pilot traces, a separate oracle-retrieved-memory calibration packet, generated metrics, documentation, and a no-model validation harness.
+It contains the audited pilot traces, a separate oracle-retrieved-memory calibration packet, optional extension diagnostics, generated metrics, documentation, and a no-model validation harness.
 
 ## 2. What Claims This Artifact Supports
 
@@ -22,6 +22,7 @@ Calibration traces are excluded from the main S0/S1/S2 rates.
 
 - `traces/v1_main_324/`: 324 main traces, with 108 traces each for `S0`, `S1`, and `S2`.
 - `traces/calibration_oracle_memory_72/`: 72 oracle-retrieved-memory calibration traces for `S1-ORACLE-RETRIEVED-MEMORY`.
+- `extensions/`: optional trusted-memory utility and localized stateful-stress packets excluded from canonical rates.
 - `results/`: packaged run summaries, episode scores, main metrics, calibration metrics, and attribution reports.
 - `tables/`: regenerated JSON metric tables used by the benchmark report.
 - `data/`: synthetic corpus, allowlist, episode specifications, and gold labels.
@@ -67,6 +68,7 @@ The retained artifact does not record the trace-sampling rule, so the audit pack
 ## 9. Known Limitations
 
 The audited pilot evaluates one actor/backend pair over synthetic enterprise-assistant tasks.
+The localized stateful-stress packet is a diagnostic companion rather than a canonical-rate packet: it shows that the main S1 poisoned-memory admission rate is payload-shape-conservative, and that `calendar-attendee` stress unsafe rows include a non-memory-specific task/gold-argument confound under S2.
 Original model-generation jobs retain actor/backend metadata but not exact worker, wall-clock runtime, or peak-memory telemetry.
 Full model reruns require Apple Silicon, `mlx-lm`, `sentence-transformers`, the referenced MLX actor model, and the dense retrieval model.
 

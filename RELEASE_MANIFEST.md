@@ -7,6 +7,9 @@
 - Calibration traces: 72
 - Calibration summary rows: 72
 - Total trace files: 396
+- Optional trusted tool-argument utility traces: 36
+- Optional trusted policy-memory utility traces: 36
+- Optional localized stateful-stress traces: 12
 
 ## Top-level files
 
@@ -32,5 +35,6 @@
 - data/results
 - data/traces
 - data/calibration
+- extensions
 - github_harness/memtrace
 - scripts

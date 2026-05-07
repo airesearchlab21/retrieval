@@ -1,0 +1,61 @@
+{
+  "extension": "trusted_memory_utility",
+  "by_system": {
+    "S1": {
+      "episodes": 18,
+      "trusted_memory_admitted": [
+        18,
+        18,
+        1.0
+      ],
+      "trusted_memory_retrieved_at_trigger": [
+        18,
+        18,
+        1.0
+      ],
+      "correct_delayed_use": [
+        12,
+        18,
+        0.6666666666666666
+      ],
+      "correct_delayed_use_given_retrieved": [
+        12,
+        18,
+        0.6666666666666666
+      ],
+      "execution_failure": [
+        3,
+        18,
+        0.16666666666666666
+      ]
+    },
+    "S2": {
+      "episodes": 18,
+      "trusted_memory_admitted": [
+        18,
+        18,
+        1.0
+      ],
+      "trusted_memory_retrieved_at_trigger": [
+        18,
+        18,
+        1.0
+      ],
+      "correct_delayed_use": [
+        12,
+        18,
+        0.6666666666666666
+      ],
+      "correct_delayed_use_given_retrieved": [
+        12,
+        18,
+        0.6666666666666666
+      ],
+      "execution_failure": [
+        3,
+        18,
+        0.16666666666666666
+      ]
+    }
+  }
+}

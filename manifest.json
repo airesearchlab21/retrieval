@@ -19,11 +19,11 @@
     },
     {
       "path": "README.md",
-      "bytes": 4957
+      "bytes": 5411
     },
     {
       "path": "RELEASE_MANIFEST.md",
-      "bytes": 595
+      "bytes": 760
     },
     {
       "path": "REPRODUCE.md",
@@ -79,11 +79,11 @@
     },
     {
       "path": "croissant.json",
-      "bytes": 3392
+      "bytes": 3397
     },
     {
       "path": "croissant_metadata.json",
-      "bytes": 3392
+      "bytes": 3397
     },
     {
       "path": "data/allowlist/allowlist.json",
@@ -159,7 +159,7 @@
     },
     {
       "path": "docs/project.md",
-      "bytes": 1938
+      "bytes": 2181
     },
     {
       "path": "docs/static_leaderboard.md",
@@ -172,6 +172,422 @@
     {
       "path": "episodes/episodes.json",
       "bytes": 421148
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/corpus/allowlist.json",
+      "bytes": 1374
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/corpus/passages.jsonl",
+      "bytes": 126399
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/episode_scores.json",
+      "bytes": 22101
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/episodes.json",
+      "bytes": 9290
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/metrics.json",
+      "bytes": 10481
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/run_summary.json",
+      "bytes": 9068
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__budget-limit-rule__stateful-stress__d1__schema_compatible_memory_poison.jsonl",
+      "bytes": 12091
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__budget-limit-rule__stateful-stress__d3__schema_compatible_memory_poison.jsonl",
+      "bytes": 25475
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__budget-limit-rule__stateful-stress__d7__schema_compatible_memory_poison.jsonl",
+      "bytes": 49790
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__calendar-attendee__stateful-stress__d1__schema_compatible_memory_poison.jsonl",
+      "bytes": 11016
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__calendar-attendee__stateful-stress__d3__schema_compatible_memory_poison.jsonl",
+      "bytes": 23312
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S1__calendar-attendee__stateful-stress__d7__schema_compatible_memory_poison.jsonl",
+      "bytes": 47548
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__budget-limit-rule__stateful-stress__d1__schema_compatible_memory_poison.jsonl",
+      "bytes": 10212
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__budget-limit-rule__stateful-stress__d3__schema_compatible_memory_poison.jsonl",
+      "bytes": 22681
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__budget-limit-rule__stateful-stress__d7__schema_compatible_memory_poison.jsonl",
+      "bytes": 46344
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__calendar-attendee__stateful-stress__d1__schema_compatible_memory_poison.jsonl",
+      "bytes": 9462
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__calendar-attendee__stateful-stress__d3__schema_compatible_memory_poison.jsonl",
+      "bytes": 21339
+    },
+    {
+      "path": "extensions/stateful_stress_admission_cells_12/traces/qwen25_7b__S2__calendar-attendee__stateful-stress__d7__schema_compatible_memory_poison.jsonl",
+      "bytes": 42973
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/corpus/allowlist.json",
+      "bytes": 2195
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/corpus/passages.jsonl",
+      "bytes": 129437
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/episode_scores.json",
+      "bytes": 64909
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/episodes.json",
+      "bytes": 28176
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/metrics.json",
+      "bytes": 1062
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/run_summary.json",
+      "bytes": 26390
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__access-control-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14774
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__access-control-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25789
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__access-control-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 50165
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__approval-limit-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14922
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__approval-limit-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 28131
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__approval-limit-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 55335
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__budget-limit-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14794
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__budget-limit-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 28160
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__budget-limit-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 53495
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__data-sharing-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13831
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__data-sharing-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27197
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__data-sharing-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 51565
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__escalation-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14017
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__escalation-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27379
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__escalation-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 49639
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__permission-scope-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13317
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__permission-scope-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 26691
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S1__permission-scope-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 50977
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__access-control-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14780
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__access-control-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25803
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__access-control-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 50203
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__approval-limit-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14930
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__approval-limit-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27220
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__approval-limit-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 51605
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__budget-limit-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14804
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__budget-limit-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27255
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__budget-limit-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 52612
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__data-sharing-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13837
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__data-sharing-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 26288
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__data-sharing-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 50680
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__escalation-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14023
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__escalation-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 26470
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__escalation-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 48752
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__permission-scope-rule__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13323
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__permission-scope-rule__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25782
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/traces/qwen25_7b__S2__permission-scope-rule__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 50090
+    },
+    {
+      "path": "extensions/trusted_policy_utility_36/utility_scores.json",
+      "bytes": 26336
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/corpus/allowlist.json",
+      "bytes": 2195
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/corpus/passages.jsonl",
+      "bytes": 129437
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/episode_scores.json",
+      "bytes": 64796
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/episodes.json",
+      "bytes": 27256
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/metrics.json",
+      "bytes": 1030
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/run_summary.json",
+      "bytes": 26336
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-attendee__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15838
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-attendee__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 28116
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-attendee__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 52316
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-location__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15483
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-location__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27761
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__calendar-location__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 49578
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__email-recipient__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14217
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__email-recipient__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25767
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__email-recipient__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 47325
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__expense-code__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15283
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__expense-code__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27551
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__expense-code__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 48986
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__file-destination__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13200
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__file-destination__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25476
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__file-destination__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 47220
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__meeting-time__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 16541
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__meeting-time__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 28211
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S1__meeting-time__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 49939
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-attendee__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15848
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-attendee__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27707
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-attendee__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 49305
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-location__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15493
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-location__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27352
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__calendar-location__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 47219
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__email-recipient__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 14223
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__email-recipient__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25140
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__email-recipient__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 46064
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__expense-code__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 15293
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__expense-code__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27142
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__expense-code__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 45969
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__file-destination__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 13200
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__file-destination__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 25057
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__file-destination__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 44838
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__meeting-time__trusted-utility__d1__trusted_memory_utility.jsonl",
+      "bytes": 16551
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__meeting-time__trusted-utility__d3__trusted_memory_utility.jsonl",
+      "bytes": 27157
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/traces/qwen25_7b__S2__meeting-time__trusted-utility__d7__trusted_memory_utility.jsonl",
+      "bytes": 46922
+    },
+    {
+      "path": "extensions/trusted_toolarg_utility_36/utility_scores.json",
+      "bytes": 25466
     },
     {
       "path": "figures/figure1_pipeline.svg",
@@ -391,7 +807,7 @@
     },
     {
       "path": "github_harness/scripts/export_release.py",
-      "bytes": 34622
+      "bytes": 37553
     },
     {
       "path": "github_harness/scripts/make_audit.py",
@@ -431,7 +847,7 @@
     },
     {
       "path": "github_harness/scripts/run_trusted_utility_suite.py",
-      "bytes": 10700
+      "bytes": 13715
     },
     {
       "path": "github_harness/scripts/score_runs.py",

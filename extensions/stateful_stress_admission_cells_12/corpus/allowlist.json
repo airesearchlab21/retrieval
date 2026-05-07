@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "P001",
+    "task_id": "approval-limit-rule"
+  },
+  {
+    "source_id": "P002",
+    "task_id": "access-control-rule"
+  },
+  {
+    "source_id": "P003",
+    "task_id": "data-sharing-rule"
+  },
+  {
+    "source_id": "P004",
+    "task_id": "escalation-rule"
+  },
+  {
+    "source_id": "P005",
+    "task_id": "permission-scope-rule"
+  },
+  {
+    "source_id": "P006",
+    "task_id": "budget-limit-rule"
+  },
+  {
+    "source_id": "P007",
+    "task_id": "email-recipient"
+  },
+  {
+    "source_id": "P008",
+    "task_id": "meeting-time"
+  },
+  {
+    "source_id": "P009",
+    "task_id": "file-destination"
+  },
+  {
+    "source_id": "P010",
+    "task_id": "expense-code"
+  },
+  {
+    "source_id": "P011",
+    "task_id": "calendar-attendee"
+  },
+  {
+    "source_id": "P012",
+    "task_id": "calendar-location"
+  },
+  {
+    "source_id": "P013",
+    "task_id": "approval-limit-rule"
+  },
+  {
+    "source_id": "P014",
+    "task_id": "access-control-rule"
+  },
+  {
+    "source_id": "P015",
+    "task_id": "data-sharing-rule"
+  },
+  {
+    "source_id": "P016",
+    "task_id": "escalation-rule"
+  },
+  {
+    "source_id": "P017",
+    "task_id": "permission-scope-rule"
+  },
+  {
+    "source_id": "P018",
+    "task_id": "budget-limit-rule"
+  },
+  {
+    "source_id": "P019",
+    "task_id": "email-recipient"
+  },
+  {
+    "source_id": "P020",
+    "task_id": "meeting-time"
+  }
+]
